@@ -47,7 +47,7 @@ namespace C_19_3_IEnumerable
         string[] Colors = { "violet", "blue", "cyan", "green", "yellow", "orange", "red" };
         public IEnumerator GetEnumerator()
         {
-            // 返回对象的枚举器
+            // 返回枚举器实例
             return new ColorEnumerator(Colors);
         }
     }

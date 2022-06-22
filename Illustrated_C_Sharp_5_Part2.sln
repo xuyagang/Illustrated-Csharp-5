@@ -95,6 +95,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_19_2_IEnumerator", "C_19_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_19_3_IEnumerable", "C_19_3_IEnumerable\C_19_3_IEnumerable.csproj", "{6B33A70B-0C7E-4363-8D8B-0EFD76693650}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_19_5_2_迭代器创建枚举器", "C_19_5_2_迭代器创建枚举器\C_19_5_2_迭代器创建枚举器.csproj", "{7DC561D7-1782-444D-A41F-7AC0BC4D3E26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +287,10 @@ Global
 		{6B33A70B-0C7E-4363-8D8B-0EFD76693650}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B33A70B-0C7E-4363-8D8B-0EFD76693650}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B33A70B-0C7E-4363-8D8B-0EFD76693650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DC561D7-1782-444D-A41F-7AC0BC4D3E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC561D7-1782-444D-A41F-7AC0BC4D3E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC561D7-1782-444D-A41F-7AC0BC4D3E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC561D7-1782-444D-A41F-7AC0BC4D3E26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
