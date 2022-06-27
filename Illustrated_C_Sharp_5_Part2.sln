@@ -91,6 +91,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_17_10_is运算符", "C_17
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_17_11_as运算符", "C_17_11_as运算符\C_17_11_as运算符.csproj", "{C1435271-4B5C-45C2-849F-A8E079DCEFE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_19_2_IEnumerator", "C_19_2_IEnumerator\C_19_2_IEnumerator.csproj", "{70422D7E-6B99-4255-9AD5-483868DD61C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_19_3_IEnumerable", "C_19_3_IEnumerable\C_19_3_IEnumerable.csproj", "{6B33A70B-0C7E-4363-8D8B-0EFD76693650}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_19_5_3_迭代器创建可枚举类型", "C_19_5_3_迭代器创建可枚举类型\C_19_5_3_迭代器创建可枚举类型.csproj", "{0EED643F-A9CC-4392-9F20-B6D6D1EE5E86}"
 EndProject
 Global
