@@ -97,7 +97,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_19_3_IEnumerable", "C_19_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_19_5_3_迭代器创建可枚举类型", "C_19_5_3_迭代器创建可枚举类型\C_19_5_3_迭代器创建可枚举类型.csproj", "{0EED643F-A9CC-4392-9F20-B6D6D1EE5E86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_19_7_多个可枚举类型", "C_19_7_多个可枚举类型\C_19_7_多个可枚举类型.csproj", "{C36D987F-74C0-4C7C-BBAB-756C7666231A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_19_7_多个可枚举类型", "C_19_7_多个可枚举类型\C_19_7_多个可枚举类型.csproj", "{C36D987F-74C0-4C7C-BBAB-756C7666231A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_19_8_将迭代器作为属性", "C_19_8_将迭代器作为属性\C_19_8_将迭代器作为属性.csproj", "{3C0D9B5C-06C7-41A4-96A7-79FA3915E0BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -297,6 +299,10 @@ Global
 		{C36D987F-74C0-4C7C-BBAB-756C7666231A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C36D987F-74C0-4C7C-BBAB-756C7666231A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C36D987F-74C0-4C7C-BBAB-756C7666231A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C0D9B5C-06C7-41A4-96A7-79FA3915E0BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C0D9B5C-06C7-41A4-96A7-79FA3915E0BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C0D9B5C-06C7-41A4-96A7-79FA3915E0BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C0D9B5C-06C7-41A4-96A7-79FA3915E0BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
