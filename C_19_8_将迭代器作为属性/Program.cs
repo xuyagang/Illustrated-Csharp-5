@@ -22,7 +22,16 @@ namespace C_19_8_将迭代器作为属性
         {
             get
             {
-
+                for (int i = 0; i < colors.Length; i++)
+                    yield return colors[i];
+            }
+        }
+        public IEnumerator<string> IRtoUV
+        {
+            get
+            {
+                for (int i = colors.Length - 1; i >= 0; i--)
+                    yield return colors[i];
             }
         }
     }
@@ -31,7 +40,16 @@ namespace C_19_8_将迭代器作为属性
     {
         static void Main(string[] args)
         {
-            
+            Spectrum startUV = new Spectrum(true);
+            Spectrum startIR = new Spectrum(false);
+
+            foreach (string color in startUV)
+                Console.Write($"{color}  ");
+            Console.WriteLine();
+
+            foreach(string color in startIR)
+                Console.Write($"{color}  ");
+            Console.WriteLine();
         }
     }
 }
