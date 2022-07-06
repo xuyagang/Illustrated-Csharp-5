@@ -105,7 +105,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_18_1_泛型_栈", "C_18_1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_18_2_泛型_栈_占位符", "C_18_2_泛型_栈_占位符\C_18_2_泛型_栈_占位符.csproj", "{464B4527-9773-4F20-9099-C318EAD3B845}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_18_3_4_泛型_栈", "C_18_3_4_泛型_栈\C_18_3_4_泛型_栈.csproj", "{EAADD4D0-E1FE-41FD-814A-0EBA82EF614C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_18_3_4_泛型_栈", "C_18_3_4_泛型_栈\C_18_3_4_泛型_栈.csproj", "{EAADD4D0-E1FE-41FD-814A-0EBA82EF614C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_18_5_泛型方法示例", "C_18_5_泛型方法示例\C_18_5_泛型方法示例.csproj", "{E958F4E1-9379-402E-BF65-4DFCBC185E83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_18_6_扩展方法和泛型类", "C_18_6_扩展方法和泛型类\C_18_6_扩展方法和泛型类.csproj", "{21490C87-736C-432E-BA28-DE6DB7A65E01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -321,6 +325,14 @@ Global
 		{EAADD4D0-E1FE-41FD-814A-0EBA82EF614C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAADD4D0-E1FE-41FD-814A-0EBA82EF614C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAADD4D0-E1FE-41FD-814A-0EBA82EF614C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E958F4E1-9379-402E-BF65-4DFCBC185E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E958F4E1-9379-402E-BF65-4DFCBC185E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E958F4E1-9379-402E-BF65-4DFCBC185E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E958F4E1-9379-402E-BF65-4DFCBC185E83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21490C87-736C-432E-BA28-DE6DB7A65E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21490C87-736C-432E-BA28-DE6DB7A65E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21490C87-736C-432E-BA28-DE6DB7A65E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21490C87-736C-432E-BA28-DE6DB7A65E01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
