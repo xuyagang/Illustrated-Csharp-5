@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace C_8_6_使用基类的引用
+namespace C_8_4_使用基类的引用
 {
     class MyBaseClass
     {
@@ -23,7 +23,7 @@ namespace C_8_6_使用基类的引用
             //创建一个对象（派生类型对象引用）
             MyDerivedClass derived = new MyDerivedClass();
             //转换引用
-            MyBaseClass mybc = (MyDerivedClass)derived;
+            MyBaseClass mybc = derived;
 
             derived.Print();
             mybc.Print();

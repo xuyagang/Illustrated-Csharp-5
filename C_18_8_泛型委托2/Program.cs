@@ -23,5 +23,7 @@ namespace C_18_8_泛型委托2
             // 调用委托
             Console.WriteLine(myDel(11, 22));
         }
+
+        int a = 2;
     }
 }
