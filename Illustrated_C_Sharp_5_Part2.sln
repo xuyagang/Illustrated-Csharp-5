@@ -125,6 +125,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_18_8_泛型委托", "C_18
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_18_8_泛型委托2", "C_18_8_泛型委托2\C_18_8_泛型委托2.csproj", "{25DA6A92-8881-4A4C-8422-8CF18AA13E44}"
 EndProject
+<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_18_10_2_逆变", "C_18_10_2_逆变\C_18_10_2_逆变.csproj", "{52727535-A534-44C1-A86D-180A688F1B53}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_18_10_4_接口的协变与逆变", "C_18_10_4_接口的协变与逆变\C_18_10_4_接口的协变与逆变.csproj", "{82202513-0903-4B6B-BDE9-F1277B79042E}"
@@ -148,6 +149,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_9_16_typeof示例", "C_9_16_typeof示例\C_9_16_typeof示例.csproj", "{933EA30D-1D57-4D79-8BF7-8160BAC62601}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_9_17_nameof", "C_9_17_nameof\C_9_17_nameof.csproj", "{CA1FF608-5674-46F2-A399-CE69B89E4F1F}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_18_9_泛型接口1", "C_18_9_泛型接口1\C_18_9_泛型接口1.csproj", "{8FCFAE3D-F064-487B-B1C5-25ABC402729F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_18_9_1_使用泛型接口", "C_18_9_1_使用泛型接口\C_18_9_1_使用泛型接口.csproj", "{480705BE-B2B8-4835-8B40-BA3CA3457372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_18_10_1_协变", "C_18_10_1_协变\C_18_10_1_协变.csproj", "{95CE6FE5-69CE-43D1-AE67-221E5B78B05F}"
+>>>>>>> 5f48c034837d27efc5c9bcc32a6c71cc46756570
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -399,6 +407,7 @@ Global
 		{25DA6A92-8881-4A4C-8422-8CF18AA13E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25DA6A92-8881-4A4C-8422-8CF18AA13E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25DA6A92-8881-4A4C-8422-8CF18AA13E44}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{52727535-A534-44C1-A86D-180A688F1B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{52727535-A534-44C1-A86D-180A688F1B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52727535-A534-44C1-A86D-180A688F1B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -447,6 +456,20 @@ Global
 		{CA1FF608-5674-46F2-A399-CE69B89E4F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA1FF608-5674-46F2-A399-CE69B89E4F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA1FF608-5674-46F2-A399-CE69B89E4F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{8FCFAE3D-F064-487B-B1C5-25ABC402729F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FCFAE3D-F064-487B-B1C5-25ABC402729F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FCFAE3D-F064-487B-B1C5-25ABC402729F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCFAE3D-F064-487B-B1C5-25ABC402729F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{480705BE-B2B8-4835-8B40-BA3CA3457372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{480705BE-B2B8-4835-8B40-BA3CA3457372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{480705BE-B2B8-4835-8B40-BA3CA3457372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{480705BE-B2B8-4835-8B40-BA3CA3457372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95CE6FE5-69CE-43D1-AE67-221E5B78B05F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95CE6FE5-69CE-43D1-AE67-221E5B78B05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95CE6FE5-69CE-43D1-AE67-221E5B78B05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95CE6FE5-69CE-43D1-AE67-221E5B78B05F}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 5f48c034837d27efc5c9bcc32a6c71cc46756570
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
