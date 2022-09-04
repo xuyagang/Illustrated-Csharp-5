@@ -169,17 +169,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_12_1_枚举", "C_12_1_枚
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_23_2_try语句", "C_23_2_try语句\C_23_2_try语句.csproj", "{D1C55F65-F605-4F12-B6AD-8A9BCDFD2A6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_23_9_2_搜索调用栈", "C_23_9_2_搜索调用栈\C_23_9_2_搜索调用栈.csproj", "{3A72137B-DE28-4AAE-8538-0612FD8D93F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_23_9_2_搜索调用栈", "C_23_9_2_搜索调用栈\C_23_9_2_搜索调用栈.csproj", "{3A72137B-DE28-4AAE-8538-0612FD8D93F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_23_10_抛出异常", "C_23_10_抛出异常\C_23_10_抛出异常.csproj", "{FF975B24-6F5F-46D1-AE05-3C83EAE445B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_23_10_抛出异常", "C_23_10_抛出异常\C_23_10_抛出异常.csproj", "{FF975B24-6F5F-46D1-AE05-3C83EAE445B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_23_11_不带异常对象抛出", "C_23_11_不带异常对象抛出\C_23_11_不带异常对象抛出.csproj", "{89DFBF36-8599-4CA9-93FC-199F557FDD2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_23_11_不带异常对象抛出", "C_23_11_不带异常对象抛出\C_23_11_不带异常对象抛出.csproj", "{89DFBF36-8599-4CA9-93FC-199F557FDD2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_23_12_throw表达式", "C_23_12_throw表达式\C_23_12_throw表达式.csproj", "{DC13D09C-AA8F-4911-B4A3-E145237666F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_23_12_throw表达式", "C_23_12_throw表达式\C_23_12_throw表达式.csproj", "{DC13D09C-AA8F-4911-B4A3-E145237666F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_25_3_获取type对象", "C_25_3_获取type对象\C_25_3_获取type对象.csproj", "{ECD26E88-2963-4E57-8D6D-C6F7B134B43C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_25_3_获取type对象", "C_25_3_获取type对象\C_25_3_获取type对象.csproj", "{ECD26E88-2963-4E57-8D6D-C6F7B134B43C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_25_3_typeof使用", "C_25_3_typeof使用\C_25_3_typeof使用.csproj", "{24537077-9D28-434A-9724-F444025899F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_25_3_typeof使用", "C_25_3_typeof使用\C_25_3_typeof使用.csproj", "{24537077-9D28-434A-9724-F444025899F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_25_6_1_Obsolete特性", "C_25_6_1_Obsolete特性\C_25_6_1_Obsolete特性.csproj", "{C99568BC-1F6E-4207-BB28-4839078F688E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_25_6_2_Conditional特性", "C_25_6_2_Conditional特性\C_25_6_2_Conditional特性.csproj", "{90707FC4-F074-4FD3-8EC2-FDA80E429E57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_25_6_3_调用者信息特性", "C_25_6_3_调用者信息特性\C_25_6_3_调用者信息特性.csproj", "{F6999D8F-0C30-41AE-9464-9705D5C7FD1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_25_6_4_DebuggerStepThrouth特性", "C_25_6_4_DebuggerStepThrouth特性\C_25_6_4_DebuggerStepThrouth特性.csproj", "{073540B1-61A6-47C3-BFCF-5A76529D51C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -543,6 +551,22 @@ Global
 		{24537077-9D28-434A-9724-F444025899F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24537077-9D28-434A-9724-F444025899F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24537077-9D28-434A-9724-F444025899F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C99568BC-1F6E-4207-BB28-4839078F688E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99568BC-1F6E-4207-BB28-4839078F688E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99568BC-1F6E-4207-BB28-4839078F688E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99568BC-1F6E-4207-BB28-4839078F688E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90707FC4-F074-4FD3-8EC2-FDA80E429E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90707FC4-F074-4FD3-8EC2-FDA80E429E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90707FC4-F074-4FD3-8EC2-FDA80E429E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90707FC4-F074-4FD3-8EC2-FDA80E429E57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6999D8F-0C30-41AE-9464-9705D5C7FD1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6999D8F-0C30-41AE-9464-9705D5C7FD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6999D8F-0C30-41AE-9464-9705D5C7FD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6999D8F-0C30-41AE-9464-9705D5C7FD1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{073540B1-61A6-47C3-BFCF-5A76529D51C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073540B1-61A6-47C3-BFCF-5A76529D51C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073540B1-61A6-47C3-BFCF-5A76529D51C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073540B1-61A6-47C3-BFCF-5A76529D51C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
