@@ -2,8 +2,6 @@
 using System.Net;
 using System.Diagnostics;
 
-
-
 namespace C_21_1_非异步
 {
     class MyDownloadString
@@ -24,7 +22,6 @@ namespace C_21_1_非异步
 
             Console.WriteLine($"Chars in https://cn.bing.com/      : {t1}");
             Console.WriteLine($"Chars in https://www.baidu.com/    : {t2}");
-            sw.Stop();
         }
 
         private int CountCharacter(int id, String uriString)
@@ -39,8 +36,7 @@ namespace C_21_1_非异步
 
         private void CountToALargeNumber(int id, int value)
         {
-            for (long i = 0; i < value; i++)
-                ;
+            for (long i = 0; i < value; i++) ;
             Console.WriteLine($"End counting {id}     :     {sw.Elapsed.TotalMilliseconds,4:N0}");
         }
     }
