@@ -193,7 +193,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_25_9_1_使用IsDefined", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_25_9_2_使用GetCustomAttributes", "C_25_9_2_使用GetCustomAttributes\C_25_9_2_使用GetCustomAttributes.csproj", "{9163E383-1456-420A-B0F5-9BFA23E35CE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_21_1_非异步", "C_21_1_非异步\C_21_1_非异步.csproj", "{C1913B86-8254-496C-88E5-56AD12AD493B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_21_1_非异步", "C_21_1_非异步\C_21_1_非异步.csproj", "{C1913B86-8254-496C-88E5-56AD12AD493B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_21_1_异步", "C_21_1_异步\C_21_1_异步.csproj", "{37B424A0-3094-4067-A209-EB83F9D6598A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -585,6 +587,10 @@ Global
 		{C1913B86-8254-496C-88E5-56AD12AD493B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1913B86-8254-496C-88E5-56AD12AD493B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1913B86-8254-496C-88E5-56AD12AD493B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37B424A0-3094-4067-A209-EB83F9D6598A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B424A0-3094-4067-A209-EB83F9D6598A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B424A0-3094-4067-A209-EB83F9D6598A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B424A0-3094-4067-A209-EB83F9D6598A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
