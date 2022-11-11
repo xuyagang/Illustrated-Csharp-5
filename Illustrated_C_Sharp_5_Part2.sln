@@ -195,7 +195,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_25_9_2_使用GetCustomAtt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_21_1_非异步", "C_21_1_非异步\C_21_1_非异步.csproj", "{C1913B86-8254-496C-88E5-56AD12AD493B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_21_1_异步", "C_21_1_异步\C_21_1_异步.csproj", "{37B424A0-3094-4067-A209-EB83F9D6598A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_21_1_异步", "C_21_1_异步\C_21_1_异步.csproj", "{37B424A0-3094-4067-A209-EB83F9D6598A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_26_7_空条件运算符", "C_26_7_空条件运算符\C_26_7_空条件运算符.csproj", "{61825682-F51D-4EE2-9DBD-EFA8DF468042}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_21_3_1_异步方法控制流", "C_21_3_1_异步方法控制流\C_21_3_1_异步方法控制流.csproj", "{3460E515-A82D-4D43-A818-0F0D9347BDE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -591,6 +595,14 @@ Global
 		{37B424A0-3094-4067-A209-EB83F9D6598A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37B424A0-3094-4067-A209-EB83F9D6598A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37B424A0-3094-4067-A209-EB83F9D6598A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61825682-F51D-4EE2-9DBD-EFA8DF468042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61825682-F51D-4EE2-9DBD-EFA8DF468042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61825682-F51D-4EE2-9DBD-EFA8DF468042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61825682-F51D-4EE2-9DBD-EFA8DF468042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3460E515-A82D-4D43-A818-0F0D9347BDE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3460E515-A82D-4D43-A818-0F0D9347BDE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3460E515-A82D-4D43-A818-0F0D9347BDE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3460E515-A82D-4D43-A818-0F0D9347BDE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
