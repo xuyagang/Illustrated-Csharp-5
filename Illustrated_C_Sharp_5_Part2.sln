@@ -201,7 +201,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_26_7_空条件运算符",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_21_3_1_异步方法控制流", "C_21_3_1_异步方法控制流\C_21_3_1_异步方法控制流.csproj", "{3460E515-A82D-4D43-A818-0F0D9347BDE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_21_3_1_TaskRun方法", "C_21_3_1_TaskRun方法\C_21_3_1_TaskRun方法.csproj", "{29FCA652-E1F0-457F-8C13-6FD3589DC972}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_21_3_1_TaskRun方法", "C_21_3_1_TaskRun方法\C_21_3_1_TaskRun方法.csproj", "{29FCA652-E1F0-457F-8C13-6FD3589DC972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_21_3_2_取消一个异步操作", "C_21_3_2_取消一个异步操作\C_21_3_2_取消一个异步操作.csproj", "{312A1625-B0C3-4E12-8685-BF67D23143A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -609,6 +611,10 @@ Global
 		{29FCA652-E1F0-457F-8C13-6FD3589DC972}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29FCA652-E1F0-457F-8C13-6FD3589DC972}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29FCA652-E1F0-457F-8C13-6FD3589DC972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{312A1625-B0C3-4E12-8685-BF67D23143A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{312A1625-B0C3-4E12-8685-BF67D23143A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{312A1625-B0C3-4E12-8685-BF67D23143A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{312A1625-B0C3-4E12-8685-BF67D23143A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
