@@ -14,11 +14,14 @@ namespace C_21_3_5_TaskDelay
             ShowDelayAsync();
             Console.WriteLine("Caller: After call");
         }
+        /// <summary>
+        /// 测试Delay的异步
+        /// </summary>
         private async void ShowDelayAsync()
         {
             sw.Start();
             Console.WriteLine($"Before Delay: {sw.ElapsedMilliseconds}");
-            await Task.Delay(1000);
+            await Task.Delay(3000);
             Console.WriteLine($"After Delay: {sw.ElapsedMilliseconds}");
         }
     }

@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:C_21_5_异步Lambda"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Async Lambda" Height="115" Width="150">
+    <StackPanel>
+        <TextBlock Name="workStartedTextBlock" Margin="10,10"></TextBlock>
+        <Button Name="startWorkButton" Width="100" Margin="4" Content="Start Work"></Button>
+    </StackPanel>
 </Window>

@@ -23,6 +23,25 @@ namespace C_21_5_异步Lambda
         public MainWindow()
         {
             InitializeComponent();
+
+            startWorkButton.Click += async (sender, e) =>
+            {
+                SetGuiValues(false, "Work Started");
+                await DoSomeWork();   // 延迟3秒
+                SetGuiValues(true, "Work Fineshed");
+            };
         }
+
+        private void SetGuiValues(bool buttonEnabled, string status)
+        {
+            startWorkButton.IsEnabled = buttonEnabled;
+            workStartedTextBlock.Text = status;
+        }
+
+        private Task DoSomeWork()
+        {
+            return Task.Delay(3000);
+        }
+
     }
 }

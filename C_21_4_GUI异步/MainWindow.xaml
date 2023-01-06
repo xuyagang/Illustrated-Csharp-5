@@ -9,5 +9,6 @@
     <StackPanel>
         <Label Name="lbStatus" Margin="10 5 10 0">Not Doing Anything</Label>
         <Button Name="btnDoStuff" Content="Do Stuff" HorizontalAlignment="Left" Margin="10, 5" Padding="5,2" Click="btnDoStuff_Click"></Button>
+        <Button Name="btnTest" Content="Test" HorizontalAlignment="Left" Margin="10, 5" Padding="5,2" Click="btnTest_Click"></Button>
     </StackPanel>
 </Window>

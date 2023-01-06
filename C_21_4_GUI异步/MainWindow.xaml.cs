@@ -37,5 +37,10 @@ namespace C_21_4_GUI异步
             lbStatus.Content = "Not Doing Anything";
             btnDoStuff.IsEnabled = true;
         }
+
+        private void btnTest_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Hello Task.Delay");
+        }
     }
 }
