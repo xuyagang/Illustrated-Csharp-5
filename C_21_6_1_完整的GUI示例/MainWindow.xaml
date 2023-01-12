@@ -1,0 +1,18 @@
+﻿<Window x:Class="C_21_6_1_完整的GUI示例.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:C_21_6_1_完整的GUI示例"
+        mc:Ignorable="d"
+        Title="Process and Cancel" Height="150" Width="250">
+    <StackPanel>
+        <Button Name="btnProcess" Width="100" Click="btnProcess_Click"
+                HorizontalAlignment="Right" Margin="10 15 10 10">Process</Button>
+        <Button Name="btnCancel" Width="100" Click="btnCancel_Click"
+                HorizontalAlignment="Right" Margin="10 0">Cancel</Button>
+        <!--Margin单个值是上侧偏移，两个值是右，上侧-->
+        <ProgressBar Name="progressBar" Height="20" Width="200" Margin="10"
+                     HorizontalAlignment="Right"></ProgressBar>
+    </StackPanel>
+</Window>

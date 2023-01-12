@@ -213,13 +213,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_21_3_3_同步等待任务
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_21_3_4_异步方法异步等待", "C_21_3_4_异步方法异步等待\C_21_3_4_异步方法异步等待.csproj", "{D96BC4D6-838D-4B14-ACA2-D3CFD37782D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_21_3_5_TaskDelay", "C_21_3_5_TaskDelay\C_21_3_5_TaskDelay.csproj", "{DB158D4A-C155-4059-8E10-03D84D110848}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_21_3_5_TaskDelay", "C_21_3_5_TaskDelay\C_21_3_5_TaskDelay.csproj", "{DB158D4A-C155-4059-8E10-03D84D110848}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_21_4_GUI异步", "C_21_4_GUI异步\C_21_4_GUI异步.csproj", "{0F9C3D3B-8362-4AA6-8AA3-902D34B16D19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_21_4_TaskYield", "C_21_4_TaskYield\C_21_4_TaskYield.csproj", "{5DDDE449-41D3-493C-AB7B-A7C3C4BF5DE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C_21_4_TaskYield", "C_21_4_TaskYield\C_21_4_TaskYield.csproj", "{5DDDE449-41D3-493C-AB7B-A7C3C4BF5DE4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_21_5_异步Lambda", "C_21_5_异步Lambda\C_21_5_异步Lambda.csproj", "{1521FE3F-F3E5-44EA-ADE4-A6B8EA50B515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_21_6_1_完整的GUI示例", "C_21_6_1_完整的GUI示例\C_21_6_1_完整的GUI示例.csproj", "{82B1D921-5927-440D-985C-D9EC3BE427BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -663,6 +665,10 @@ Global
 		{1521FE3F-F3E5-44EA-ADE4-A6B8EA50B515}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1521FE3F-F3E5-44EA-ADE4-A6B8EA50B515}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1521FE3F-F3E5-44EA-ADE4-A6B8EA50B515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82B1D921-5927-440D-985C-D9EC3BE427BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B1D921-5927-440D-985C-D9EC3BE427BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B1D921-5927-440D-985C-D9EC3BE427BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B1D921-5927-440D-985C-D9EC3BE427BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
