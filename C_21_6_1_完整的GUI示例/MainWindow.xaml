@@ -11,7 +11,7 @@
                 HorizontalAlignment="Right" Margin="10 15 10 10">Process</Button>
         <Button Name="btnCancel" Width="100" Click="btnCancel_Click"
                 HorizontalAlignment="Right" Margin="10 0">Cancel</Button>
-        <!--Margin单个值是上侧偏移，两个值是右，上侧-->
+        <!--Margin单个值是四侧偏移，两个值是右，上侧-->
         <ProgressBar Name="progressBar" Height="20" Width="200" Margin="10"
                      HorizontalAlignment="Right"></ProgressBar>
     </StackPanel>
