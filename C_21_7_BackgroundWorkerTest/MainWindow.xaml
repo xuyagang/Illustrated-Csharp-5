@@ -9,7 +9,7 @@
 
     <StackPanel>
         <ProgressBar Name="progressBar" Height="20" Width="200" Margin="10"></ProgressBar>
-        <Button Name="btnProcess" Width="100" Click="btnProcess_Click" Margin="5"></Button>
-        <Button Name="btnCancel" Width="100" Click="btnCancel_Click" Margin="5"></Button>
+        <Button Name="btnProcess" Width="100" Click="btnProcess_Click" Margin="5">Process</Button>
+        <Button Name="btnCancel" Width="100" Click="btnCancel_Click" Margin="5">Cancel</Button>
     </StackPanel>
 </Window>
