@@ -19,7 +19,7 @@ namespace C_21_7_BackgroundWorkerTest
 {
     /// <summary>
     /// 创建后台线程、构造函数设置属性并添加事件处理程序
-    /// 
+    /// 单击按钮调用DoWork事件处理程序，
     /// </summary>
     public partial class MainWindow : Window
     {
@@ -85,8 +85,9 @@ namespace C_21_7_BackgroundWorkerTest
                 else
                 {
                     // 后台线程通过调用该方法与主线程通信汇报进度，届时将触发ProgressChanged事件
+                    // 参数是 已完成的后台操作所占的百分比，范围从 0% 到 100%
                     worker.ReportProgress(i * 10);
-                    Thread.Sleep(500);
+                    Thread.Sleep(500);   // 阻塞线程
                 }
             }
         }
