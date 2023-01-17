@@ -18,7 +18,8 @@ using System.ComponentModel;
 namespace C_21_7_BackgroundWorkerTest
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// 创建后台线程、构造函数设置属性并添加事件处理程序
+    /// 
     /// </summary>
     public partial class MainWindow : Window
     {
@@ -47,11 +48,11 @@ namespace C_21_7_BackgroundWorkerTest
         {
             // 检查后台线程是否在运行
             if(!bgWorker.IsBusy)
-                bgWorker.RunWorkerAsync();   // 调用该方法获取后台线程并且执行DoWork事件处理程序
+                bgWorker.RunWorkerAsync();   // 如果没有后台线程运行,调用该方法获取后台线程并且执行DoWork事件处理程序
         }
 
         /// <summary>
-        /// 如果启用了WorkerSupportsCancellation属性，就可以调用对象的CancelAsync方法
+        /// 如果启用了WorkerSupportsCancellation属性，就可以调用对象的CancelAsync方法，请求取消挂起的后台线程
         /// 它不会取消后台线程，而是将对象的CancellationPending属性设置为true
         /// </summary>
         /// <param name="sender"></param>
@@ -76,7 +77,7 @@ namespace C_21_7_BackgroundWorkerTest
             // 在后台线程中需要定期检查CancellationPending属性，如果为true则取消后台线程
             for (int i = 1; i <= 10; i++)
             {
-                if (worker.CancellationPending)
+                if (worker.CancellationPending)   // 是否取消挂起
                 {
                     args.Cancel = true;
                     break;
