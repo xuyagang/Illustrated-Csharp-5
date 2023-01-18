@@ -227,6 +227,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_21_7_BackgroundWorkerTest
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_21_8_1_parallelFor", "C_21_8_1_parallelFor\C_21_8_1_parallelFor.csproj", "{27EC25D9-6AFA-4D7A-923E-07196DEC9A91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_21_10_1_等待直到完成", "C_21_10_1_等待直到完成\C_21_10_1_等待直到完成.csproj", "{745F28E7-51B7-4EF9-BB2D-37FBA6C513FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -681,6 +683,10 @@ Global
 		{27EC25D9-6AFA-4D7A-923E-07196DEC9A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27EC25D9-6AFA-4D7A-923E-07196DEC9A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27EC25D9-6AFA-4D7A-923E-07196DEC9A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{745F28E7-51B7-4EF9-BB2D-37FBA6C513FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{745F28E7-51B7-4EF9-BB2D-37FBA6C513FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{745F28E7-51B7-4EF9-BB2D-37FBA6C513FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{745F28E7-51B7-4EF9-BB2D-37FBA6C513FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
