@@ -21,12 +21,13 @@ namespace C_21_10_1_等待直到完成
 
         static void Main(string[] args)
         {
+            // 创建委托对象
             MyDel del = new MyDel(Sum);
             Console.WriteLine("Before BeginInvoke");
             // 开始异步调用
             IAsyncResult iar = del.BeginInvoke(3,5,null,null);
             Console.WriteLine("Doing stuff");
-            // 等待结束并获取结果
+            // 等待异步方法结束并获取结果
             long result = del.EndInvoke(iar);
             Console.WriteLine($"After EndInvoke:{result}");
         }
