@@ -235,6 +235,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_21_10_4_回调模式", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_21_11_计时器", "C_21_11_计时器\C_21_11_计时器.csproj", "{006C61BD-7FD8-45A5-B02D-081EC1776EA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_15_5_触发事件", "C_15_5_触发事件\C_15_5_触发事件.csproj", "{92BEB340-3A8E-4485-9A8C-E1E850CC13CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -705,6 +707,10 @@ Global
 		{006C61BD-7FD8-45A5-B02D-081EC1776EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{006C61BD-7FD8-45A5-B02D-081EC1776EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{006C61BD-7FD8-45A5-B02D-081EC1776EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92BEB340-3A8E-4485-9A8C-E1E850CC13CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BEB340-3A8E-4485-9A8C-E1E850CC13CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BEB340-3A8E-4485-9A8C-E1E850CC13CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BEB340-3A8E-4485-9A8C-E1E850CC13CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
