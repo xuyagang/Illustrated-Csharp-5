@@ -239,6 +239,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_15_5_触发事件", "C_15
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_15_6_标准事件的用法", "C_15_6_标准事件的用法\C_15_6_标准事件的用法.csproj", "{FDE14618-45E9-4907-81A7-F8F7A58A45AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_15_6_1_扩展EventArgs来传递参数", "C_15_6_1_扩展EventArgs来传递参数\C_15_6_1_扩展EventArgs来传递参数.csproj", "{2E6B2901-167B-4BCC-9F24-317FFEE3FD8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -717,6 +719,10 @@ Global
 		{FDE14618-45E9-4907-81A7-F8F7A58A45AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDE14618-45E9-4907-81A7-F8F7A58A45AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDE14618-45E9-4907-81A7-F8F7A58A45AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E6B2901-167B-4BCC-9F24-317FFEE3FD8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E6B2901-167B-4BCC-9F24-317FFEE3FD8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E6B2901-167B-4BCC-9F24-317FFEE3FD8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6B2901-167B-4BCC-9F24-317FFEE3FD8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
