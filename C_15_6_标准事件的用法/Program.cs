@@ -24,6 +24,7 @@ namespace C_15_6_标准事件的用法
     }
     /// <summary>
     /// 订阅者
+    /// 一般会包含事件处理程序
     /// </summary>
     class Dozens
     {

@@ -8,6 +8,7 @@ namespace C_15_6_1_扩展EventArgs来传递参数
 {
     /// <summary>
     /// 自定义类，派生自 EventArgs
+    /// 用于传递数据
     /// </summary>
     public class IncrementerEventArgs : EventArgs
     {
