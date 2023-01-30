@@ -243,6 +243,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_15_6_1_扩展EventArgs来
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_15_6_2_移除事件处理程序", "C_15_6_2_移除事件处理程序\C_15_6_2_移除事件处理程序.csproj", "{9D7DFDAC-FB37-4FF2-89F8-4C120D6798FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_26_15_is模式匹配", "C_26_15_is模式匹配\C_26_15_is模式匹配.csproj", "{93EA5D48-39F0-45AB-9F14-6C61D66464F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -729,6 +731,10 @@ Global
 		{9D7DFDAC-FB37-4FF2-89F8-4C120D6798FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D7DFDAC-FB37-4FF2-89F8-4C120D6798FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D7DFDAC-FB37-4FF2-89F8-4C120D6798FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93EA5D48-39F0-45AB-9F14-6C61D66464F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93EA5D48-39F0-45AB-9F14-6C61D66464F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93EA5D48-39F0-45AB-9F14-6C61D66464F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93EA5D48-39F0-45AB-9F14-6C61D66464F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
