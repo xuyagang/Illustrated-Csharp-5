@@ -28,5 +28,29 @@ namespace C_8_7_1_构造函数初始化
             UserName = "Anonymous";
             UserIdNumber = idNumber;
         }
+
+        static void Main()
+        {
+            MyClass myClass = new MyClass("Test");
+            Console.WriteLine(myClass.firstVar);
+        }
     }
+
+
+    //class DerivedClass : MyClass
+    //{
+    //    private double num;
+    //    public DerivedClass() : base(666)
+    //    {
+    //        num = 5;
+    //        UserIdNumber = 777;
+    //    }
+
+    //    static void Main()
+    //    {
+    //        DerivedClass c = new DerivedClass();
+    //        Console.WriteLine(c.UserIdNumber);
+    //        Console.WriteLine(c.num);
+    //    }
+    //}
 }
