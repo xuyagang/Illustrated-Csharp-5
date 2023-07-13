@@ -8,6 +8,7 @@ namespace Test
 {
     partial class Program
     {
+        // Test
         static void Main()
         {
             Console.WriteLine(a);
