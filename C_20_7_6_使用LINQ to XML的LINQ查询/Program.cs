@@ -13,20 +13,20 @@ namespace C_20_7_6_使用LINQ_to_XML的LINQ查询
         static void Main(string[] args)
         {
             #region 创建xml
-            //XDocument xd = new XDocument(
-            //    new XElement("MyElements",
-            //        new XElement("first",
-            //            new XAttribute("color", "red"),
-            //            new XAttribute("size", "small")),
-            //        new XElement("second",
-            //            new XAttribute("color", "red"),
-            //            new XAttribute("size", "small")),
-            //        new XElement("third",
-            //            new XAttribute("color", "red"),
-            //            new XAttribute("size", "small"))));
+            XDocument xd = new XDocument(
+                new XElement("MyElements",
+                    new XElement("first",
+                        new XAttribute("color", "red"),
+                        new XAttribute("size", "small")),
+                    new XElement("second",
+                        new XAttribute("color", "red"),
+                        new XAttribute("size", "small")),
+                    new XElement("third",
+                        new XAttribute("color", "red"),
+                        new XAttribute("size", "small"))));
 
-            //Console.WriteLine(xd);
-            //xd.Save("simple.xml");
+            Console.WriteLine(xd);
+            xd.Save("simple.xml");
             #endregion
 
 
@@ -42,9 +42,6 @@ namespace C_20_7_6_使用LINQ_to_XML的LINQ查询
 
             foreach (XElement x in xyz)
                 Console.WriteLine(x.Name.ToString());
-
-
-
             #endregion
         }
     }
