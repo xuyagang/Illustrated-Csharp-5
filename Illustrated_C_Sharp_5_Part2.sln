@@ -245,6 +245,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_15_6_2_移除事件处理
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_26_15_is模式匹配", "C_26_15_is模式匹配\C_26_15_is模式匹配.csproj", "{93EA5D48-39F0-45AB-9F14-6C61D66464F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_20-6-5-使用委托参数", "C_20-6-5-使用委托参数\C_20-6-5-使用委托参数.csproj", "{7F1E84C0-A775-42C1-8B01-7125BC513066}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -735,6 +737,10 @@ Global
 		{93EA5D48-39F0-45AB-9F14-6C61D66464F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93EA5D48-39F0-45AB-9F14-6C61D66464F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93EA5D48-39F0-45AB-9F14-6C61D66464F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F1E84C0-A775-42C1-8B01-7125BC513066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F1E84C0-A775-42C1-8B01-7125BC513066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F1E84C0-A775-42C1-8B01-7125BC513066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F1E84C0-A775-42C1-8B01-7125BC513066}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
