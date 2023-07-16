@@ -249,6 +249,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_20-6-5-使用委托参数
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_20_6_6_使用Lambda表达式参数", "C_20_6_6_使用Lambda表达式参数\C_20_6_6_使用Lambda表达式参数.csproj", "{D64F262D-26D1-42B1-A555-66065FFE66C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_20_7_3_XML创建", "C_20_7_3_XML创建\C_20_7_3_XML创建.csproj", "{2EACEAC4-C398-44A6-86D6-9FF2DB3221D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -747,6 +749,10 @@ Global
 		{D64F262D-26D1-42B1-A555-66065FFE66C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D64F262D-26D1-42B1-A555-66065FFE66C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D64F262D-26D1-42B1-A555-66065FFE66C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EACEAC4-C398-44A6-86D6-9FF2DB3221D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EACEAC4-C398-44A6-86D6-9FF2DB3221D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EACEAC4-C398-44A6-86D6-9FF2DB3221D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EACEAC4-C398-44A6-86D6-9FF2DB3221D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
