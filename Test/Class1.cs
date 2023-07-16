@@ -8,9 +8,7 @@ namespace Test
 {
     partial class Program
     {
-        /// <summary>
-        /// Test
-        /// </summary>
+        // Test
         static void Main()
         {
             Console.WriteLine(a);
