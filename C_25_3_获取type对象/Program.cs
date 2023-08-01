@@ -33,6 +33,19 @@ namespace C_25_3_获取type对象
                 }    
                 Console.WriteLine();
             }
+            Console.WriteLine("-------------------------------------------");
+
+            // 获取type的程序集
+            Assembly assembly = bca.GetType().Assembly;
+            // 程序集名称
+            Console.WriteLine(assembly.FullName);
+            // 获取程序集下的类型
+            Type[] types = assembly.GetTypes();
+            foreach (Type t in types)
+            {
+                Console.WriteLine(t.Name);
+            }
+
         }
     }
 }
