@@ -18,6 +18,7 @@ namespace C_21_4_TaskYield
                 if (i%1000 ==0)   
                 {
                     await Task.Yield();
+                    Console.WriteLine(System.Threading.Thread.CurrentThread.ManagedThreadId);
                 }
             }
             return sum;
@@ -56,11 +57,12 @@ namespace C_21_4_TaskYield
         static void Main(string[] args)
         {
             Task<int> value = DoStuff.FindSeriesSum(1000000);
-            Task<int> value2 = DoStuff.FindSeriesSum2(1000000);
+            //Task<int> value2 = DoStuff.FindSeriesSum2(1000000);
             //int value3 = DoStuff.FindSeriesSum3(1000000);
             
             Console.WriteLine("Test");
-            Console.WriteLine($"Sum:{value.Result} - {value2.Result}");
+            //Console.WriteLine($"Sum:{value.Result} - {value2.Result}");
+            Console.WriteLine($"Sum:{value.Result}");
 
             CountBig(100000);
             CountBig(100000);

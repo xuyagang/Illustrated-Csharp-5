@@ -32,8 +32,8 @@ namespace C_21_4_GUI异步
         {
             btnDoStuff.IsEnabled = false;
             lbStatus.Content = "Doing Stuff";
-            //Thread.Sleep(4000);
-            await Task.Delay(4000);   // 非阻塞暂停，将自己从处理器弹出，4s后再将自己压入队列
+            Thread.Sleep(4000);
+            //await Task.Delay(4000);   // 非阻塞暂停，将自己从处理器弹出，4s后再将自己压入队列
             lbStatus.Content = "Not Doing Anything";
             btnDoStuff.IsEnabled = true;
         }
