@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace C_21_3_1_TaskRun方法
@@ -11,6 +12,17 @@ namespace C_21_3_1_TaskRun方法
         /// <returns></returns>
         public static async Task DoWorkAsync()
         {
+            List<string> names = new List<string> { "aaa-", "bbb-", "ccc-", "ddd-" };
+            Action<List<string>> action = ChangeStr;
+
+            await Task.Run( () => action(names));
+
+            foreach(string name in names)
+            {
+                Console.WriteLine(name);
+            }
+
+
             //await指定异步执行任务 
             //                       Action  
             await Task.Run(() => Console.WriteLine(5.ToString()));
@@ -21,6 +33,14 @@ namespace C_21_3_1_TaskRun方法
             //                          Task<TResult> Func()
             int value = await Task.Run(() => Task.Run(() => 8));
             Console.WriteLine(value.ToString());
+        }
+
+        private static void ChangeStr(List<string> strs)
+        {
+            for (int i = 0; i < strs.Count; i++)
+            {
+                strs[i] = strs[i].Replace("-", "00000");
+            }
         }
     }
 
