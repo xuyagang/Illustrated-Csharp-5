@@ -253,6 +253,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_20_7_3_XML创建", "C_20_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_20_7_6_使用LINQ to XML的LINQ查询", "C_20_7_6_使用LINQ to XML的LINQ查询\C_20_7_6_使用LINQ to XML的LINQ查询.csproj", "{586F0155-4DB6-4DCB-B3BB-6265F7221EAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_26_12_集合初始化语句", "C_26_12_集合初始化语句\C_26_12_集合初始化语句.csproj", "{D3F0E826-1200-490F-BC7E-5DA4B0D86C05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -759,6 +761,10 @@ Global
 		{586F0155-4DB6-4DCB-B3BB-6265F7221EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{586F0155-4DB6-4DCB-B3BB-6265F7221EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{586F0155-4DB6-4DCB-B3BB-6265F7221EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F0E826-1200-490F-BC7E-5DA4B0D86C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F0E826-1200-490F-BC7E-5DA4B0D86C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F0E826-1200-490F-BC7E-5DA4B0D86C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F0E826-1200-490F-BC7E-5DA4B0D86C05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
