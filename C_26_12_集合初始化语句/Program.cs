@@ -25,23 +25,17 @@ namespace C_26_12_集合初始化语句
         {
             _subscribers.Add(c);
         }
-
-
         public IEnumerator<Customer> GetEnumerator()
         {
             throw new NotImplementedException();
         }
-
         IEnumerator IEnumerable.GetEnumerator()
         {
             throw new NotImplementedException();
         }
     }
 
-
-
     public class Customer
     {
-
     }
 }
