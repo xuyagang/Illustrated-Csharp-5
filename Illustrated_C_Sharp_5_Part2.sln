@@ -257,6 +257,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_26_12_集合初始化语�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_26_12_集合初始化完整示例", "C_26_12_集合初始化完整示例\C_26_12_集合初始化完整示例.csproj", "{2325E085-0728-4A5B-9DAD-49AE6908FFA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_26_13_改进的重载决策", "C_26_13_改进的重载决策\C_26_13_改进的重载决策.csproj", "{05159A6F-8F6C-4F8A-817C-D75F4726A1E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -771,6 +773,10 @@ Global
 		{2325E085-0728-4A5B-9DAD-49AE6908FFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2325E085-0728-4A5B-9DAD-49AE6908FFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2325E085-0728-4A5B-9DAD-49AE6908FFA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05159A6F-8F6C-4F8A-817C-D75F4726A1E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05159A6F-8F6C-4F8A-817C-D75F4726A1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05159A6F-8F6C-4F8A-817C-D75F4726A1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05159A6F-8F6C-4F8A-817C-D75F4726A1E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
