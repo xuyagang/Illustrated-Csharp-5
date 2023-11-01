@@ -259,6 +259,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_26_12_集合初始化完�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_26_13_改进的重载决策", "C_26_13_改进的重载决策\C_26_13_改进的重载决策.csproj", "{05159A6F-8F6C-4F8A-817C-D75F4726A1E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_26_16_switch模式匹配", "C_26_16_switch模式匹配\C_26_16_switch模式匹配.csproj", "{AD6D4EDC-1BCB-46E2-8A27-DAFA72177A16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -777,6 +779,10 @@ Global
 		{05159A6F-8F6C-4F8A-817C-D75F4726A1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05159A6F-8F6C-4F8A-817C-D75F4726A1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05159A6F-8F6C-4F8A-817C-D75F4726A1E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD6D4EDC-1BCB-46E2-8A27-DAFA72177A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD6D4EDC-1BCB-46E2-8A27-DAFA72177A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD6D4EDC-1BCB-46E2-8A27-DAFA72177A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD6D4EDC-1BCB-46E2-8A27-DAFA72177A16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
