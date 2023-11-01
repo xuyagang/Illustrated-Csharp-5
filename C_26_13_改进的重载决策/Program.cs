@@ -21,7 +21,6 @@ namespace C_26_13_改进的重载决策
         {
             return Task.FromResult(0);
         }
-
         static void Test() { }
     }
 }
