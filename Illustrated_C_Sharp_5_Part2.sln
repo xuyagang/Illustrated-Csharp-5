@@ -263,6 +263,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_26_16_switch模式匹配"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_26_17_自定义析构函数", "C_26_17_自定义析构函数\C_26_17_自定义析构函数.csproj", "{994454DC-2D10-468F-8458-3365EF1EC1AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_26_19_out变量", "C_26_19_out变量\C_26_19_out变量.csproj", "{DCFB7F94-B7A2-454E-844E-A78A9E53CA0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -789,6 +791,10 @@ Global
 		{994454DC-2D10-468F-8458-3365EF1EC1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{994454DC-2D10-468F-8458-3365EF1EC1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{994454DC-2D10-468F-8458-3365EF1EC1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCFB7F94-B7A2-454E-844E-A78A9E53CA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCFB7F94-B7A2-454E-844E-A78A9E53CA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCFB7F94-B7A2-454E-844E-A78A9E53CA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCFB7F94-B7A2-454E-844E-A78A9E53CA0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
