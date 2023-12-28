@@ -29,12 +29,18 @@ namespace C_26_20_局部函数1
                     units = "Miles";
                     break;
             }
+            int a = 0;
             // 注意这个局部函数没有参数
             double CalculateRemainingRange()
             {
+                a = 5;
                 return remainingFuel / fuelConsumptionRate;
             }
-            return (CalculateRemainingRange(), units);
+
+            Console.WriteLine(a);
+            double temp = CalculateRemainingRange();
+            Console.WriteLine(a);
+            return (temp, units);
         }
     }
 }
