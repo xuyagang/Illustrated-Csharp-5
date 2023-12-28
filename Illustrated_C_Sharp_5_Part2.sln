@@ -267,6 +267,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_26_19_out变量", "C_26_1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_26_20_局部函数", "C_26_20_局部函数\C_26_20_局部函数.csproj", "{50FFB21C-0A48-488B-AFE6-9FAD9D3FE8B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_26_20_局部函数1", "C_26_20_局部函数1\C_26_20_局部函数1.csproj", "{03CD863E-6615-4D57-943E-2AEC93F9348C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -801,6 +803,10 @@ Global
 		{50FFB21C-0A48-488B-AFE6-9FAD9D3FE8B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50FFB21C-0A48-488B-AFE6-9FAD9D3FE8B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50FFB21C-0A48-488B-AFE6-9FAD9D3FE8B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03CD863E-6615-4D57-943E-2AEC93F9348C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03CD863E-6615-4D57-943E-2AEC93F9348C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03CD863E-6615-4D57-943E-2AEC93F9348C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03CD863E-6615-4D57-943E-2AEC93F9348C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
