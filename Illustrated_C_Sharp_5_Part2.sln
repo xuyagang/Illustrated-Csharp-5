@@ -271,6 +271,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_26_20_局部函数1", "C_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_26_22_表达式函数体成员", "C_26_22_表达式函数体成员\C_26_22_表达式函数体成员.csproj", "{0F578DCB-B149-403B-9D52-CDAFFF83CECE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_27_2_字符串", "C_27_2_字符串\C_27_2_字符串.csproj", "{615C9A9B-E553-42C4-8726-91FE2B8E14BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -813,6 +815,10 @@ Global
 		{0F578DCB-B149-403B-9D52-CDAFFF83CECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F578DCB-B149-403B-9D52-CDAFFF83CECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F578DCB-B149-403B-9D52-CDAFFF83CECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{615C9A9B-E553-42C4-8726-91FE2B8E14BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{615C9A9B-E553-42C4-8726-91FE2B8E14BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{615C9A9B-E553-42C4-8726-91FE2B8E14BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{615C9A9B-E553-42C4-8726-91FE2B8E14BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
