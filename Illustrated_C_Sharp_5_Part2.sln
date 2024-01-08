@@ -273,6 +273,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_26_22_表达式函数体�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_27_2_字符串", "C_27_2_字符串\C_27_2_字符串.csproj", "{615C9A9B-E553-42C4-8726-91FE2B8E14BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_27_3_StringBuilder", "C_27_3_StringBuilder\C_27_3_StringBuilder.csproj", "{EF6DF2FD-98AD-483A-A3D9-6A7357956B63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -819,6 +821,10 @@ Global
 		{615C9A9B-E553-42C4-8726-91FE2B8E14BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{615C9A9B-E553-42C4-8726-91FE2B8E14BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{615C9A9B-E553-42C4-8726-91FE2B8E14BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF6DF2FD-98AD-483A-A3D9-6A7357956B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF6DF2FD-98AD-483A-A3D9-6A7357956B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF6DF2FD-98AD-483A-A3D9-6A7357956B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF6DF2FD-98AD-483A-A3D9-6A7357956B63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
