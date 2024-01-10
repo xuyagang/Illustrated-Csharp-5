@@ -281,6 +281,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_27_4_TryParse", "C_27_4_T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_27_5_3_空条件运算符", "C_27_5_3_空条件运算符\C_27_5_3_空条件运算符.csproj", "{0FCA22B2-A5FE-4561-8E88-AB4ACCCDDB41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_27_5_4_可空用户定义类型", "C_27_5_4_可空用户定义类型\C_27_5_4_可空用户定义类型.csproj", "{3C000F6A-15E8-4745-9394-5DD25BB3716B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -843,6 +845,10 @@ Global
 		{0FCA22B2-A5FE-4561-8E88-AB4ACCCDDB41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FCA22B2-A5FE-4561-8E88-AB4ACCCDDB41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FCA22B2-A5FE-4561-8E88-AB4ACCCDDB41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C000F6A-15E8-4745-9394-5DD25BB3716B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C000F6A-15E8-4745-9394-5DD25BB3716B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C000F6A-15E8-4745-9394-5DD25BB3716B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C000F6A-15E8-4745-9394-5DD25BB3716B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
