@@ -289,6 +289,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_27_8_嵌套类型", "C_27
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_27_8_2_嵌套类型可见性", "C_27_8_2_嵌套类型可见性\C_27_8_2_嵌套类型可见性.csproj", "{C09E1A02-30CA-47AF-8EA2-8496465FAA0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_27_9_1_标准dispose模式", "C_27_9_1_标准dispose模式\C_27_9_1_标准dispose模式.csproj", "{732FF92E-273A-4119-BD6F-007CED992D89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -867,6 +869,10 @@ Global
 		{C09E1A02-30CA-47AF-8EA2-8496465FAA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C09E1A02-30CA-47AF-8EA2-8496465FAA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C09E1A02-30CA-47AF-8EA2-8496465FAA0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{732FF92E-273A-4119-BD6F-007CED992D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{732FF92E-273A-4119-BD6F-007CED992D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{732FF92E-273A-4119-BD6F-007CED992D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{732FF92E-273A-4119-BD6F-007CED992D89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
