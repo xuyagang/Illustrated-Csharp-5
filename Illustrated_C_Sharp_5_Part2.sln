@@ -285,6 +285,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_27_5_4_可空用户定义
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_27_6_Main方法", "C_27_6_Main方法\C_27_6_Main方法.csproj", "{96FA4CA6-A468-4508-83AC-C43B30A752B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_27_8_嵌套类型", "C_27_8_嵌套类型\C_27_8_嵌套类型.csproj", "{1E17D024-4F7C-457C-A3D1-01E9DF424873}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -855,6 +857,10 @@ Global
 		{96FA4CA6-A468-4508-83AC-C43B30A752B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96FA4CA6-A468-4508-83AC-C43B30A752B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96FA4CA6-A468-4508-83AC-C43B30A752B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E17D024-4F7C-457C-A3D1-01E9DF424873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E17D024-4F7C-457C-A3D1-01E9DF424873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E17D024-4F7C-457C-A3D1-01E9DF424873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E17D024-4F7C-457C-A3D1-01E9DF424873}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
