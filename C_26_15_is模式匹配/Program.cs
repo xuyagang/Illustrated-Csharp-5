@@ -29,9 +29,11 @@ namespace C_26_15_is模式匹配
     {
         static void Main(string[] args)
         {
-            var dc = new DerivedClass();
+            DerivedClass dc = new DerivedClass();
             if (dc is DerivedClass)
-            { Console.WriteLine("Derived Class found"); }
+            { 
+                Console.WriteLine("Derived Class found"); 
+            }
 
             if (dc is BaseClass)
             { Console.WriteLine("Base Class found"); }
