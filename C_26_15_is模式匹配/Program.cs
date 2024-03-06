@@ -16,7 +16,7 @@ namespace C_26_15_is模式匹配
     }
 
     public class BaseClass
-    {
+    { 
         public string SampleStringProperty { get; set; }
     }
     public class DerivedClass : BaseClass, IOne, ITwo
